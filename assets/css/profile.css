@@ -1,0 +1,84 @@
+body {           
+    background-color: 	#9f9f94;   
+    font-family: 'Roboto Black Roman', sans-serif;       
+}
+
+/* Header (My profile) */
+#profile-section { 
+    background-color: #9f9f94;
+    border: 2px solid #bbb;
+    padding: 20px;
+    margin: 20px;
+}
+
+.profile-header {
+    text-align: left;
+    margin-bottom: 20px;
+    background-color: #9f9f94;
+}
+
+.profile-header img {
+    width: 100px;
+    padding-bottom: 10px;
+}
+
+.profile-header h1 {
+    padding-bottom: 10px;
+}
+
+.questions-answers {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.questions, .answers {
+    width: 48%;            
+    border: 10px solid #ccc;
+    padding: 10px;
+    background-color: #9f9f94;
+}
+
+.question, .answer {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: 	#aeba99;
+}
+
+.question-title, .answer-content {
+    font-size: 18px;
+    color: #333;
+}
+
+.status {
+    color: green;
+    font-weight: bold;
+}
+
+.button-style {
+    background-color: black; /* Green background */            
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding around the text */
+    border: none; /* No border */
+    border-radius: 15px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background 0.3s; /* Smooth transition for the hover effect */
+}
+
+.button-style:hover {
+    background-color: green; /* Darker shade of green for hover effect */
+}
+
+.delete-question, .delete-answer {
+    background-color: #f44336; /* Red background for delete buttons */           
+    color: white;
+    padding: 8px 16px;
+    border-radius: 15px; /* Rounded corners for delete buttons */
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.delete-question:hover, .delete-answer:hover {
+    background-color: black; /* Darker shade of red on hover */
+}

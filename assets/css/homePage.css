@@ -1,0 +1,119 @@
+body {
+    margin: 0; /* It's a good practice to reset default margin */
+    padding: 0; /* Reset default padding */
+    background-color: #fae6d2; /* Replace with the color you desire */
+    font-family: 'Roboto Black Roman', sans-serif; /* Optional: Set a default font for the page */
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row; /* Arrange children horizontally */
+}       
+
+.left-side {
+    flex: 1; /* Half of the space */
+    display: flex;
+    flex-direction: column;
+}
+    
+
+.image-container {
+    height: 500px; /* Adjust the height as needed */
+    width: 500px; /* Adjust the width as needed */
+    background-image: url('/TechSolveForum/assets/images/displayimage.jpg');
+    background-size: contain; /* This will make sure the entire image fits inside the container */
+    background-repeat: no-repeat; /* This will prevent the image from repeating */
+    background-position: center center; /* This centers the image */
+    margin: auto; /* This will center the container if there's space around it */
+}
+
+.right-side {
+    flex: 1; /* Assign double space for the right side compared to the left */
+    /* Move all your existing content-related styles here */
+}
+
+
+.welcome-text {
+    /* Other styling remains the same */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center children horizontally */
+    justify-content: center; /* Center children vertically */
+    text-align: center; /* Center text alignment */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.0);
+    color: #000000; /* Text color */
+}
+
+#welcome-section {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#question-section {
+    background-color: #b69b7c;
+    border: 2px solid #bbb;
+    padding: 20px;
+    margin: 20px;
+    margin-top: 0;
+    padding-top: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8);
+}
+
+.question {
+    background-color:		#d9c2ba; /* Light grey background for the question boxes */
+    border: 1px solid #ccc; /* Keeps the current border */
+    margin-bottom: 10px; /* Keeps the current bottom margin */
+    padding: 15px; /* Keeps the current padding */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8); /* Optional: Adds a subtle shadow for depth */            
+}
+
+.question-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.question-title {
+    font-size: 18px;
+    color: #333;
+}
+
+.question-content {
+    color: #666;
+}
+
+.question-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.status.answered {
+    color: green;
+    font-weight: bold;
+}        
+
+#filter-buttons {
+    display: flex;
+    justify-content: flex-start; /* This will center the buttons horizontally */
+    margin-bottom: 20px; /* Adds space below the filter buttons */
+}
+
+#filter-buttons button {
+    background-color: black; /* Black background */
+    color: white; /* White text */
+    border: none; /* No border */
+    padding: 10px 20px; /* Some padding around the text */
+    margin-right: 5px; /* Spacing between buttons */
+    cursor: pointer; /* Cursor to indicate they are clickable */
+    border-radius: 5px; /* Rounded corners for aesthetics */
+    margin: 0 10px;
+}
+
+#filter-buttons button:hover {
+    background-color: Blue; /* Slightly lighter black for hover state */
+}

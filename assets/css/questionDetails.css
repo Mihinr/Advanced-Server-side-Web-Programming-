@@ -1,0 +1,110 @@
+body {
+    background-color: #faf0e6;
+    font-family: 'Roboto Black', sans-serif;
+}
+
+#question-details, #answers, #post-answer {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
+}
+
+h1, h2 {
+    color: #333;
+}
+
+#question-details img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+#question-details {
+    background-color: #999b84;
+}
+
+.answer-container {
+    padding: 15px;
+    border-top: 2px solid #ddd;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #e4d5b7;
+}
+
+.vote-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.vote-container span {
+    padding: 5px;
+}
+
+.answer-details {
+    flex-grow: 1;
+    padding-left: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    background-color: #7ac486;
+}
+
+.btn, .btn-accept, .btn-reject {
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: green;
+}
+
+.btn:hover, .btn-accept:hover, .btn-reject:hover {
+    background-color: black;
+}
+
+.btn-reject {
+    background-color: red;
+}
+
+.btn-reject:hover {
+    background-color: darkred;
+}
+
+#success-message {
+    margin: 10px 20px;
+    text-align: center;
+    display: none;
+}
+
+.vote-btn {
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+.vote-btn img {
+    height: 20px;
+    width: 20px;
+    display: block;
+}

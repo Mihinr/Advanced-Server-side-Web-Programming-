@@ -1,0 +1,40 @@
+body {
+    background-color: 	#ede6cf;
+    font-family: 'Roboto Black Roman', sans-serif;
+}
+.search-results-section {
+    background-color: #b8b79c;
+    border: 2px solid #bbb;
+    padding: 20px;
+    margin: 120px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8);
+}
+
+.result {
+    background-color:#d8d7c7 ;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+
+.result-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.result-title {
+    font-size: 18px;
+    color: #333;
+}
+
+.result-content {
+    color: #666;
+}
+
+.result-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 14px;
+}
